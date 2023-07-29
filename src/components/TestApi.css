@@ -1,0 +1,43 @@
+/* TestApi.css */
+
+.test-api-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .test-api-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .test-api-form input[type="text"],
+  .test-api-form input[type="email"],
+  .test-api-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .test-api-form textarea {
+    resize: vertical;
+  }
+  
+  .test-api-form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .test-api-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  

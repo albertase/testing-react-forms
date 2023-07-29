@@ -1,0 +1,64 @@
+/* Subscribe.css */
+
+.subscribe-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .subscribe-label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .subscribe-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .fullName-label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .fullName-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe-button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 480px) {
+    .subscribe-container {
+      flex-direction: column;
+    }
+  
+    .subscribe-input,
+    .fullName-input {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .subscribe-button {
+      margin-top: 10px;
+    }
+  }
+  
